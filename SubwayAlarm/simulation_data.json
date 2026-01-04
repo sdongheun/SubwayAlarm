@@ -1,0 +1,37 @@
+[
+  {
+    "phase": "Stopped (Initial)",
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.0,
+    "duration": 2.0
+  },
+  {
+    "phase": "Accelerating",
+    "x": 0.4,
+    "y": 0.1,
+    "z": -1.0,
+    "duration": 3.0
+  },
+  {
+    "phase": "Cruising (Vibration)",
+    "x": 0.2,
+    "y": 0.1,
+    "z": -1.0,
+    "duration": 5.0
+  },
+  {
+    "phase": "Decelerating",
+    "x": 0.45,
+    "y": 0.05,
+    "z": -1.0,
+    "duration": 3.0
+  },
+  {
+    "phase": "Stopped (Arrived)",
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.0,
+    "duration": 2.0
+  }
+]

@@ -1,0 +1,14 @@
+name: AI Code Review
+on:
+  pull_request:
+    types: [opened, synchronize]
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run AI Code Reviewer
+        uses: some-ai-action/code-review@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          openai_key: ${{ secrets.OPENAI_API_KEY }} # 만약 OpenAI API를 쓴다면
